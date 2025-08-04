@@ -1,0 +1,22 @@
+/*
+Theme Name: TwentyTwentyFive Child
+Description: Child theme of TwentyTwentyFive for custom modifications
+Author: Your Name
+Template: twentytwentyfive
+Version: 1.0.0
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentyfive-child
+*/
+
+/*
+ * CUSTOM CSS STRATEGY:
+ * 
+ * The theme uses Vite for asset compilation, so SCSS files in assets/scss/
+ * are the recommended location for most custom styles. This approach provides:
+ * - Modular organization
+ * - SCSS preprocessing capabilities
+ * - Automatic minification and optimization
+ * - Hot reloading during development
+ * 
+ */

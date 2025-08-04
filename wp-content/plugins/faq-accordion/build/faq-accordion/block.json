@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/faq-accordion",
+  "version": "0.1.0",
+  "title": "FAQ Accordion",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "Display FAQ section with expandable questions and answers, including automatic numbering and customizable heading.",
+  "keywords": [
+    "faq",
+    "accordion",
+    "questions",
+    "answers"
+  ],
+  "example": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Frequently Asked Questions"
+    },
+    "faqItems": {
+      "type": "array",
+      "default": [
+        {
+          "id": 1,
+          "question": "What is this?",
+          "answer": "This is a sample FAQ item."
+        }
+      ]
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "faq-accordion",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

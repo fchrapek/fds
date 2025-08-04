@@ -1,0 +1,29 @@
+# Build
+node_modules
+
+# Configuration
+wp-config-db.php
+wp-config.php
+db.sql.gz
+db.sql
+
+# Uploads
+!wp-content
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+!wp-content/index.php
+wp-content/themes/*/dist/
+
+# Log files
+*.log
+
+# others
+*-tmpchunk*
+.DS_Store
+.DS_Store?
+/.well-known
+.env
+.vscode
+wp.sh

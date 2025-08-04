@@ -1,0 +1,20 @@
+{
+  "name": "twentytwentyfive-child",
+  "version": "1.0.0",
+  "description": "Child theme for TwentyTwentyFive with Vite build system",
+  "license": "GPL-2.0-or-later",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "sass": "^1.69.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%"
+  ]
+}

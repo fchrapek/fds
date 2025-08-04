@@ -1,0 +1,31 @@
+<!-- wp:template-part {"slug":"header"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+		<!-- wp:post-title {"level":1} /-->
+		
+		<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
+		<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">
+			<!-- wp:post-terms {"term":"book-genre","prefix":"📚 Genre: ","separator":", ","style":{"typography":{"fontWeight":"500"}}} /-->
+		</div>
+		<!-- /wp:group -->
+		
+		<!-- wp:post-featured-image {"aspectRatio":"3/2"} /-->
+		
+		<!-- wp:post-content {"align":"full","layout":{"type":"constrained"}} /-->
+		
+		<!-- wp:html -->
+		<div id="latest-posts" style="margin-top: 3rem;">
+			<!-- AJAX content will be loaded here -->
+		</div>
+		<!-- /wp:html -->
+		
+		<!-- wp:pattern {"slug":"twentytwentyfive/post-navigation"} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer"} /-->

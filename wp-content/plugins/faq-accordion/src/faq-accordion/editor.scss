@@ -1,0 +1,11 @@
+.faq-accordion-editor {
+	.faq-accordion {
+		border: 1px dashed #ccc;
+		padding: 1rem;
+		border-radius: 0.5rem;
+
+		&__items {
+			margin-bottom: 1rem;
+		}
+	}
+}
